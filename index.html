@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Garage Floor Quote | Floors Galore Jacksonville NC</title>
-<meta name="description" content="Free in-home estimate for full-flake epoxy garage floor coatings in Jacksonville, NC from Floors Galore.">
+<title>Garage Floor Coatings | Floors Galore Jacksonville NC</title>
+<meta name="description" content="Full-flake epoxy garage floor coatings in Jacksonville, NC from Floors Galore. Text us for a free in-home estimate.">
 <link rel="stylesheet" href="site.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
 <main class="wrap">
   <section class="hero">
     <p class="eyebrow">Jacksonville, NC garage floor coatings</p>
-    <h1>Get a free in-home estimate for your garage floor.</h1>
+    <h1>Your garage floor, coated right.</h1>
     <p class="lead">Full-flake epoxy with a polyaspartic topcoat, installed by the local flooring store with 110+ Google reviews. Recent homebuyers get $200 off garage coatings.</p>
     <ul class="points">
       <li>We grind the slab and moisture-test it before anything goes down. Box-store kits skip both, which is why they peel.</li>
@@ -27,12 +27,12 @@
     </ul>
   </section>
 
-  <section class="form-card" id="quote">
-    <h2>Request your free estimate</h2>
-    <p class="sub">Fill this out and we'll call or text you to set up a time.</p>
-    <div id="ghl-form"></div>
+  <section class="form-card">
+    <h2>Text us for a free estimate</h2>
+    <p class="sub">Tap the chat bubble in the corner, leave your name and number, and we'll text you back to set up a time. Or call <a href="tel:+19109395936">910-939-5936</a>.</p>
+    <p><a class="btn" href="/quote">Prefer a form? Request an estimate here</a></p>
     <div class="disclosure">
-      <p><strong>Text message consent.</strong> The form above has an optional, unchecked box that reads: "I agree to receive text messages from Floors Galore (TMM, Inc.) about my garage floor quote, estimate appointments, project updates and occasional offers. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. Consent is not a condition of purchase." You can submit the form without checking it.</p>
+      <p>By submitting the chat widget you authorize Floors Galore (TMM, Inc.) to text or call the number you provide. Message and data rates may apply, message frequency varies. Consent is not a condition of purchase. Reply HELP for help and STOP to unsubscribe.</p>
       <p><a href="/sms-terms">SMS Terms</a> &middot; <a href="/privacy">Privacy</a></p>
     </div>
   </section>
@@ -48,37 +48,6 @@
   <p><a href="/sms-terms">SMS Terms</a> &middot; <a href="/privacy">Privacy</a> &middot; <a href="https://www.floorsgalore.com">floorsgalore.com</a></p>
 </footer>
 
-<script>
-  // GHL form embed. Set FORM_ID to the form's ID from Sites > Forms in GoHighLevel.
-  var FORM_ID = "MOR5sRqYyK4j3ftN0P7K";
-  (function () {
-    var slot = document.getElementById("ghl-form");
-    if (!FORM_ID) {
-      slot.innerHTML = '<p class="pending">Form connecting. Call or text <a href="tel:+19109395936">910-939-5936</a> for a quote today.</p>';
-      return;
-    }
-    var params = new URLSearchParams(window.location.search);
-    var src = "https://api.leadconnectorhq.com/widget/form/" + FORM_ID;
-    var c = params.get("c");
-    if (c) src += "?campaign_code=" + encodeURIComponent(c);
-    var f = document.createElement("iframe");
-    f.src = src;
-    f.id = "inline-" + FORM_ID;
-    f.title = "Epoxy quote request";
-    f.setAttribute("style", "width:100%;height:720px;border:none;border-radius:8px");
-    f.setAttribute("data-layout", "{'id':'INLINE'}");
-    f.setAttribute("data-trigger-type", "alwaysShow");
-    f.setAttribute("data-activation-type", "alwaysActivated");
-    f.setAttribute("data-deactivation-type", "neverDeactivate");
-    f.setAttribute("data-form-id", FORM_ID);
-    f.setAttribute("data-height", "720");
-    f.setAttribute("data-layout-iframe-id", "inline-" + FORM_ID);
-    f.setAttribute("data-form-name", "Epoxy quote request");
-    slot.appendChild(f);
-    var s = document.createElement("script");
-    s.src = "https://link.msgsndr.com/js/form_embed.js";
-    document.body.appendChild(s);
-  })();
-</script>
+<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6af346ea12ff64e1d0bad99e"></script>
 </body>
 </html>
